@@ -9,5 +9,6 @@ namespace TestgitConsoleApp1
     internal class testfile2
     {
         public int ID { get; set; }
+        public string Name { get; set; }
     }
 }
