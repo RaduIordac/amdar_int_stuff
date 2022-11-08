@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\TestgitConsoleApp1.csproj": {}
+    "H:\\radu\\amdaris\\VC\\Radu2\\amdar_int_stuff\\TEstgitConsoleApp1\\TestgitConsoleApp1.csproj": {}
   },
   "projects": {
-    "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\TestgitConsoleApp1.csproj": {
+    "H:\\radu\\amdaris\\VC\\Radu2\\amdar_int_stuff\\TEstgitConsoleApp1\\TestgitConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\TestgitConsoleApp1.csproj",
+        "projectUniqueName": "H:\\radu\\amdaris\\VC\\Radu2\\amdar_int_stuff\\TEstgitConsoleApp1\\TestgitConsoleApp1.csproj",
         "projectName": "TestgitConsoleApp1",
-        "projectPath": "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\TestgitConsoleApp1.csproj",
+        "projectPath": "H:\\radu\\amdaris\\VC\\Radu2\\amdar_int_stuff\\TEstgitConsoleApp1\\TestgitConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\obj\\",
+        "outputPath": "H:\\radu\\amdaris\\VC\\Radu2\\amdar_int_stuff\\TEstgitConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
