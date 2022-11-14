@@ -1,16 +1,50 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Strings & dates");
+﻿using static System.Net.Mime.MediaTypeNames;
+using System.Runtime.Intrinsics.X86;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Strings & dates");
 
 
-// practice using creating new modified strings
+        Console.Write("Let us know your first name input: ");
+        string firstName = Console.ReadLine();
+
+        Console.Write("Let us know your last name input: ");
+        string lastName = Console.ReadLine();
+
+        Console.Write("Let us know your birth year input: ");
+        int birthYear = int.Parse(Console.ReadLine());
+        //use datetime in application
+        var currentYear = DateTime.Now.Year;
+
+        var yearDiff = currentYear - birthYear;
+        string concatName = firstName + lastName;
+        // practice using creating new modified strings
+
+        Console.WriteLine($"Your name is : {firstName} {lastName} and you are {yearDiff} years old");
+
+        // create program using split/join methods
+
+        var yourData = new[] { firstName.ToString(), lastName.ToString(), birthYear.ToString(), yearDiff.ToString()  };
+        Console.WriteLine(string.Join("*",yourData));
+
+        
 
 
+        int yourNumber = concatName.Length;
+        Console.WriteLine($"Your name length is : { yourNumber} ");
+
+
+    }
+}
 
 // create program using split/join methods
 
 //USe timespan in application
 
-// use datetime in application
+
 
 // Use datetime offset in your application
 
