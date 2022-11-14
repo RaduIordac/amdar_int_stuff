@@ -1,5 +1,10 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Strings & dates");
+
+
 // practice using creating new modified strings
+
+
 
 // create program using split/join methods
 

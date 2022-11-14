@@ -1,4 +1,6 @@
-﻿using System;
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, Classes");
+
 // Create a program which uses classes to model real world objects
 
 // use methods and fields to encapsulate class implementation
@@ -12,5 +14,3 @@
 //Implement . NET IEnumerable interface
 
 // Implement  .NET Icloneable interface
-
-

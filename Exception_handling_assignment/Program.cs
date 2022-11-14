@@ -1,5 +1,7 @@
-﻿using System;
-using System.Reflection.Metadata;
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Try ... ");
+
+
 // Create methods which checks input arguments and throw exceptions
 
 //create custom exceptions and throw them
@@ -11,6 +13,4 @@ using System.Reflection.Metadata;
 //add conditionalcompilatiom symbols
 
 // Use  debug class to write debug information to output window
-
-
 
