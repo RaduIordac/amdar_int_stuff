@@ -17,21 +17,27 @@ internal class Program
         Console.Write("Let us know your birth year input: ");
         int birthYear = int.Parse(Console.ReadLine());
         //use datetime in application
-        var currentYear = DateTime.Now.Year;
+        var currentDate = DateTime.Now;
 
-        var yearDiff = currentYear - birthYear;
+        var yearDiff = currentDate.Year - birthYear;
         string concatName = firstName + lastName;
         // practice using creating new modified strings
 
-        Console.WriteLine($"Your name is : {firstName} {lastName} and you are {yearDiff} years old");
+        string displayData = $"Your name is : {firstName} {lastName} and you are {yearDiff} years old";
+        Console.WriteLine(displayData);
 
         // create program using split/join methods
 
         var yourData = new[] { firstName.ToString(), lastName.ToString(), birthYear.ToString(), yearDiff.ToString()  };
         Console.WriteLine(string.Join("*",yourData));
 
-        
+        string[] splitData = displayData.Split(" ");
 
+        foreach (var split in splitData)
+        {
+            Console.Write($"{split} ");
+        }
+        Console.WriteLine("");
 
         int yourNumber = concatName.Length;
         Console.WriteLine($"Your name length is : { yourNumber} ");
@@ -40,7 +46,7 @@ internal class Program
     }
 }
 
-// create program using split/join methods
+
 
 //USe timespan in application
 
