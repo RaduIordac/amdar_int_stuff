@@ -1,5 +1,7 @@
 ﻿using static System.Net.Mime.MediaTypeNames;
 using System.Runtime.Intrinsics.X86;
+using System.Data;
+using Microsoft.VisualBasic;
 
 internal class Program
 {
@@ -18,6 +20,8 @@ internal class Program
         int birthYear = int.Parse(Console.ReadLine());
         //use datetime in application
         var currentDate = DateTime.Now;
+        Console.WriteLine($"The date and time for UTC are {TimeZoneInfo.ConvertTimeToUtc(currentDate)} ");
+        Console.WriteLine("-------------------");
 
         var yearDiff = currentDate.Year - birthYear;
         string concatName = firstName + lastName;
@@ -25,6 +29,8 @@ internal class Program
 
         string displayData = $"Your name is : {firstName} {lastName} and you are {yearDiff} years old";
         Console.WriteLine(displayData);
+
+        Console.WriteLine($" Today is {currentDate.DayOfWeek}");
 
         // create program using split/join methods
 
@@ -42,10 +48,23 @@ internal class Program
         int yourNumber = concatName.Length;
         Console.WriteLine($"Your name length is : { yourNumber} ");
 
+        int sumNameLetters = 0;
+
+        foreach (var letter in concatName)
+        {
+            sumNameLetters += Convert.ToChar(letter);
+        }
+        Console.WriteLine($"The sum of your name letters is : {sumNameLetters} ");
+
+        //var endOfYear = new DateTime(date.Year, 12, 31);
+        DateTimeOffset dateAndTime;
+        dateAndTime = new DateTimeOffset(TimeZoneInfo.ConvertTimeToUtc(currentDate),
+                                 new TimeSpan(5, 0, 0));
+        Console.WriteLine(dateAndTime);
 
     }
 }
-
+        
 
 
 //USe timespan in application
