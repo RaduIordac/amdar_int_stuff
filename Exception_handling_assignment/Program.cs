@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Try ... ");
-
 
 // Create methods which checks input arguments and throw exceptions
 
@@ -10,6 +8,8 @@ internal class Program
     {
         Console.WriteLine("Try ... ");
         var currentDate = DateTime.Now;
+        
+
         try
         {
             Console.Write("Let us know your name input: ");
@@ -17,20 +17,21 @@ internal class Program
 
             Console.Write("Let us know your birth year ");
             int birthYear = int.Parse(Console.ReadLine());
-            if (birthYear <= currentDate.Year)
+        }
+
+        catch (Exception) 
+            { if (birthYear <= currentDate.Year)
             {
-                    catch (Exception) 
-                { Console.WriteLine($"You are not {currentDate.Year - birthYear} old"); }
-            }
+                Console.WriteLine($"You are not {currentDate.Year - birthYear} old");
+                }
+            
             else ((currentDate.Year - birthYear) < 18) {
-                throw new Exception($"You are not old enough to continue") }
+            throw new Exception($"You are not old enough to continue"); } 
+            }
 
-            finally { Console.WriteLine($"Congratulations {yourName} you can do it!"); }
-        }
-        }
-     }
+        finally { Console.WriteLine($"Congratulations {yourName} you can do it!"); }
+    }
 }
-
 
 //create custom exceptions and throw them
 

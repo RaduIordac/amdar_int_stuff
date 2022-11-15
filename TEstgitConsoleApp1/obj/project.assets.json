@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\radu_\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Amdaris stuff\\assign_app\\TEstgitConsoleApp1\\Amdaris_assignments_app.csproj",
+      "projectUniqueName": "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\Amdaris_assignments_app.csproj",
       "projectName": "Amdaris_assignments_app",
-      "projectPath": "D:\\Amdaris stuff\\assign_app\\TEstgitConsoleApp1\\Amdaris_assignments_app.csproj",
-      "packagesPath": "C:\\Users\\radu_\\.nuget\\packages\\",
-      "outputPath": "D:\\Amdaris stuff\\assign_app\\TEstgitConsoleApp1\\obj\\",
+      "projectPath": "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\Amdaris_assignments_app.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "H:\\radu\\amdaris\\VC\\Radu1\\amdar_int_stuff\\TestgitConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\radu_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
