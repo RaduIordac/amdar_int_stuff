@@ -4,6 +4,34 @@ Console.WriteLine("Try ... ");
 
 // Create methods which checks input arguments and throw exceptions
 
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Try ... ");
+        var currentDate = DateTime.Now;
+        try
+        {
+            Console.Write("Let us know your name input: ");
+            string yourName = Console.ReadLine();
+
+            Console.Write("Let us know your birth year ");
+            int birthYear = int.Parse(Console.ReadLine());
+            if (birthYear <= currentDate.Year)
+            {
+                    catch (Exception) 
+                { Console.WriteLine($"You are not {currentDate.Year - birthYear} old"); }
+            }
+            else ((currentDate.Year - birthYear) < 18) {
+                throw new Exception($"You are not old enough to continue") }
+
+            finally { Console.WriteLine($"Congratulations {yourName} you can do it!"); }
+        }
+        }
+     }
+}
+
+
 //create custom exceptions and throw them
 
 // write try- catch-finally block with multiple catch statements
