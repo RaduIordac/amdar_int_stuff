@@ -57,10 +57,10 @@ internal class Program
         Console.WriteLine($"The sum of your name letters is : {sumNameLetters} ");
 
         //var endOfYear = new DateTime(date.Year, 12, 31);
-        DateTimeOffset dateAndTime;
-        dateAndTime = new DateTimeOffset(TimeZoneInfo.ConvertTimeToUtc(currentDate),
-                                 new TimeSpan(5, 0, 0));
-        Console.WriteLine(dateAndTime);
+        //DateTimeOffset dateAndTime;
+        //dateAndTime = new DateTimeOffset(TimeZoneInfo.ConvertTimeToUtc(currentDate),
+        //                         new TimeSpan(5, 0, 0));
+        Console.WriteLine($" In eight hours the time will be : { currentDate + new TimeSpan(8, 0, 0)}");
 
     }
 }

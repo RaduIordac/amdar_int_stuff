@@ -8,21 +8,19 @@ internal class Program
     {
         Console.WriteLine("Try ... ");
         var currentDate = DateTime.Now;
-        
+
+        Console.Write("Let us know your name input: ");
+        string yourName = Console.ReadLine();
 
         try
-        {
-            Console.Write("Let us know your name input: ");
-            string yourName = Console.ReadLine();
-
-            Console.Write("Let us know your birth year ");
+        {   Console.Write("Let us know your birth year ");
             int birthYear = int.Parse(Console.ReadLine());
         }
 
-        catch (Exception) 
+        catch (Exception e) 
             { if (birthYear <= currentDate.Year)
             {
-                Console.WriteLine($"You are not {currentDate.Year - birthYear} old");
+                throw new Exception($"You are not {currentDate.Year - birthYear} old");
                 }
             
             else ((currentDate.Year - birthYear) < 18) {
