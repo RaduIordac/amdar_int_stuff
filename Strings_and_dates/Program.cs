@@ -2,6 +2,7 @@
 using System.Runtime.Intrinsics.X86;
 using System.Data;
 using Microsoft.VisualBasic;
+using System.Globalization;
 
 internal class Program
 {
@@ -58,16 +59,17 @@ internal class Program
 
         //var endOfYear = new DateTime(date.Year, 12, 31);
         //DateTimeOffset dateAndTime;
-        //dateAndTime = new DateTimeOffset(TimeZoneInfo.ConvertTimeToUtc(currentDate),
-        //                         new TimeSpan(5, 0, 0));
-        Console.WriteLine($" In eight hours the time will be : { currentDate + new TimeSpan(8, 0, 0)}");
+        //dateAndTime = new DateTimeOffset(TimeZoneInfo.ConvertTimeToUtc(currentDate));
 
+        //USe timespan in application
+        Console.WriteLine($" In eight hours the time will be : { currentDate + new TimeSpan(8, 0, 0)}");
+        Console.WriteLine($"The date in USA is {currentDate.ToString("dddd MMM yy", CultureInfo.CreateSpecificCulture("pt-PT"))}");
     }
 }
         
 
 
-//USe timespan in application
+
 
 
 
