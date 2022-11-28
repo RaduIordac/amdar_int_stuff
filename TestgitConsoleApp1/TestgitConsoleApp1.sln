@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings_and_dates_assignmen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exception_handling_assignment", "..\Exception_handling_assignment\Exception_handling_assignment.csproj", "{33483724-F147-4E08-80AC-E0C0D31791D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic_collection", "..\Generic_collection\Generic_collection.csproj", "{B4F90100-E33D-4039-AF29-23B2D22BBE3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic_collection", "..\Generic_collection\Generic_collection.csproj", "{B4F90100-E33D-4039-AF29-23B2D22BBE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "..\Playground\Playground.csproj", "{FFA0A5F7-66C8-4EA8-BF83-A2C1E320484C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B4F90100-E33D-4039-AF29-23B2D22BBE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F90100-E33D-4039-AF29-23B2D22BBE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F90100-E33D-4039-AF29-23B2D22BBE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA0A5F7-66C8-4EA8-BF83-A2C1E320484C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA0A5F7-66C8-4EA8-BF83-A2C1E320484C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA0A5F7-66C8-4EA8-BF83-A2C1E320484C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA0A5F7-66C8-4EA8-BF83-A2C1E320484C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,37 @@ Console.WriteLine("Hello, Classes");
 
 // Create a program which uses classes to model real world objects
 
+
+public abstract class Building
+{
+    protected Building()
+    {
+    }
+
+    public virtual void constructBuilding(int floorsNR)
+    {
+        Console.WriteLine($"Building will have {floorsNR} levels");
+    }
+}
+
+public class OneFloorHouse : Building
+{
+    int HouseNr;
+    string street;
+
+    public int HouseNr { get; set; }
+
+
+    public override void constructBuilding(int floorsNR = 1 )
+    {
+        Console.WriteLine($"This house has one floor ");
+    }
+    public static hasWindows(int windowNr, string windowType)
+        {
+        Console.WriteLine($"This house has {windowNr} windows of {windowType} ");
+    }
+    
+}
 // use methods and fields to encapsulate class implementation
 
 //use properties to make some properties accesible or replace trivial methods (getters/setters)

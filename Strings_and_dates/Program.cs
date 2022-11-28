@@ -3,6 +3,7 @@ using System.Runtime.Intrinsics.X86;
 using System.Data;
 using Microsoft.VisualBasic;
 using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
 
 internal class Program
 {
@@ -64,6 +65,15 @@ internal class Program
         //USe timespan in application
         Console.WriteLine($" In eight hours the time will be : { currentDate + new TimeSpan(8, 0, 0)}");
         Console.WriteLine($"The date in USA is {currentDate.ToString("dddd MMM yy", CultureInfo.CreateSpecificCulture("pt-PT"))}");
+
+        string textXML1 = "< app >< app >< app ></ app ></ app >";
+        string textXML2 = "< app ></ app ></ app >< app >< app >";
+        string textXML3 = "</ app >< app >< app ></ app ></ app >";
+
+        public static string checkXML(string textXML)
+        {
+
+        }
     }
 }
         
